@@ -76,6 +76,7 @@
                     @endif
                 </div>
             @endif
+                <a href="{{ route('hello.index') }}">Hello</a>
 
             <div class="content">
                 <div class="title m-b-md">
