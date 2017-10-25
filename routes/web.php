@@ -13,4 +13,4 @@
 
 Route::get('/', function() {
     return redirect('welcome');
-})
+});
