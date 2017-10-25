@@ -76,7 +76,7 @@
                     @endif
                 </div>
             @endif
-                <a href="{{ route('hello.index') }}">Hello</a>
+
 
             <div class="content">
                 <div class="title m-b-md">
@@ -89,6 +89,7 @@
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{ route('hello.index') }}">Hello</a>
                 </div>
             </div>
         </div>
